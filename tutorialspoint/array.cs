@@ -16,6 +16,12 @@ namespace arrayTutorial
       {
         Console.WriteLine("myArray[{0}] = {1}", i, myArray[i]);
       }
+      Console.WriteLine("\nLets do the same using a foreach statement\n");
+      //Lets use a foreach instead
+      foreach (int i in myArray)
+      {
+        Console.WriteLine("myArray[{0}] = {1}", i, myArray[i]);
+      }
     }
   }
 }
